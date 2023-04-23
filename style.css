@@ -102,8 +102,8 @@
   margin: 0 0 20px;
 }
 
+
 #new-task {
-  outline: none;
   width: 318px;
   display: block;
 }
@@ -120,7 +120,6 @@
 
 .checkbox {
   margin: 0 10px;
-  outline: none;
 }
 
 .task-name {
@@ -132,7 +131,6 @@
 
 .task {
   width: 226px;
-  outline: none;
 }
 
 .delete-image {
@@ -143,6 +141,12 @@
 
 .delete-image:hover {
   transform: rotateZ(0);
+}
+
+#new-task,
+.task,
+.checkbox{
+  outline: none;
 }
 
 /* Completed */
