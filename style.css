@@ -43,16 +43,16 @@
 }
 
 .task-list {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }   
 
 .task-list-item{
-  list-style:none;
+  list-style: none;
 }
 
-.button {.
-  outline:none;
+.button {
+  outline: none;
   background: none;
   border: 0px;
   color: #888;
@@ -78,7 +78,7 @@
 }
 
 .task {
-  outline:none;
+  outline: none;
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -92,7 +92,7 @@
 }
 
 .task:focus {
-  outline:none;
+  outline: none;
   color: #333;
 }
 
@@ -103,7 +103,7 @@
 }
 
 #new-task {
-  outline:none;
+  outline: none;
   width: 318px;
   display: block;
 }
@@ -120,7 +120,7 @@
 
 .checkbox {
   margin: 0 10px;
-  outline:none;
+  outline: none;
 }
 
 .task-name {
@@ -132,7 +132,7 @@
 
 .task {
   width: 226px;
-  outline:none;
+  outline: none;
 }
 
 .delete-image {
@@ -153,14 +153,14 @@
 
 /* Edit Task */
 .task {
-  display:none
+  display: none
 }
 
 .change-mode .task {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .change-mode .task-name {
-  display:none;
+  display: none;
 }
